@@ -99,7 +99,7 @@ articleView.create = function() {
 };
 
 
-articleView.initIndexPage = function() {
+articleView.initIndexPage = function(){
   Article.all.forEach(function(a) {
     $('#articles').append(a.toHtml())
   });
